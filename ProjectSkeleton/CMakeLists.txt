@@ -14,3 +14,9 @@ include_directories(${PROJECT_SOURCE_DIR}/inc)
 # Project include (Missed by recurse)
 #======================================================================
 add_executable (${PROJECT_NAME} ${SOURCES})
+
+# Set the VS build properties
+#======================================================================
+set_target_properties(
+    ${PROJECT_NAME} PROPERTIES
+    VS_DEBUGGER_WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
