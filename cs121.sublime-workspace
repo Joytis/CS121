@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"in_file"
+			],
+			[
+				"word_",
+				"word_count"
+			],
+			[
+				"char",
+				"char_positions"
+			],
+			[
+				"ch",
+				"char_to_find"
+			],
+			[
+				"num_",
+				"num_chars"
+			],
+			[
+				"for",
+				"for_each"
+			],
+			[
+				"set",
+				"setw\t(main.cpp)"
+			],
+			[
 				"airCharge",
 				"airChargeFrames"
 			],
@@ -486,34 +514,6 @@
 			[
 				"act",
 				"action"
-			],
-			[
-				"Current",
-				"CurrentAttack"
-			],
-			[
-				"_attack",
-				"_attack_cooldown"
-			],
-			[
-				"Clear",
-				"ClearGameObjects"
-			],
-			[
-				"LIST_",
-				"LIST_PANEL_HEIGHT"
-			],
-			[
-				"LIST",
-				"LIST_CONTENT_HEIGHT"
-			],
-			[
-				"hi",
-				"hitboxSelection"
-			],
-			[
-				"Info",
-				"INFO_PROPERTY_WIDTH"
 			]
 		]
 	},
@@ -605,12 +605,37 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Programming/CS121"
+		"/D/Programming/CS121",
+		"/D/Programming/CS121/Homework2",
+		"/D/Programming/CS121/Homework2/Program4",
+		"/D/Programming/CS121/Homework2/Program4/cmake",
+		"/D/Programming/CS121/Homework2/Program4/src",
+		"/D/Programming/CS121/ProjectSkeleton",
+		"/D/Programming/CS121/ProjectSkeleton/bin"
 	],
 	"file_history":
 	[
-		"/D/Dropbox/School/Fall2017/CS121/ProjectSkeleton/src/main.cpp",
+		"/C/Users/Clark/CMakeBuilds/4491a546-164a-963b-82e2-285b377ffc38/build/x86-Debug/UAH_sample.txt",
+		"/D/Programming/CS121/Homework2/Program4/src/main.cpp",
+		"/C/Users/Clark/CMakeBuilds/4491a546-164a-963b-82e2-285b377ffc38/build/x86-Debug/UAH_next.txt",
+		"/D/Programming/CS121/Homework2/Program4/exp/UAH_sample.txt",
+		"/D/Programming/CS121/Homework2/Program3/src/main.cpp",
+		"/D/Programming/CS121/Homework2/Program4/CMakeLists.txt",
+		"/D/Programming/CS121/Homework2/Program2/src/main.cpp",
+		"/D/Programming/CS121/Homework2/Program2/CMakeLists.txt",
+		"/D/Programming/CS121/Homework2/Program1/CMakeLists.txt",
+		"/D/Programming/CS121/cs121.sublime-project",
+		"/D/Programming/CS121/Homework2/Program1/src/main.cpp",
+		"/D/Programming/CS121/Homework2/Program3/CMakeLists.txt",
+		"/C/Users/Clark/CMakeBuilds/840d78ca-f532-0e38-9c55-110e0ad95906/build/x86-Debug/book_database.txt",
+		"/C/Users/Clark/CMakeBuilds/cc5bdfaa-ca5f-373f-8cc3-4e39554fe9bf/build/x86-Debug/temp_table.txt",
+		"/C/Users/Clark/CMakeBuilds/cc5bdfaa-ca5f-373f-8cc3-4e39554fe9bf/build/x86-Debug/temps.txt",
+		"/D/Programming/CS121/ProjectSkeleton/CMakeLists.txt",
+		"/D/Programming/CS121/Homework2/Program1/temps.txt",
 		"/D/Programming/Projects/clarksouls/CMakeLists.txt",
+		"/D/Programming/Projects/clarksouls_old/CMakeLists.txt",
+		"/D/Programming/CS121/Homework2/Program1/.vs/ProjectSettings.json",
+		"/D/Dropbox/School/Fall2017/CS121/ProjectSkeleton/src/main.cpp",
 		"/D/Programming/Projects/mini_clarkway/Assets/scripts/Game/Player/PlayerController.cs",
 		"/D/Programming/Projects/mini_clarkway/Assets/scripts/Game/Player/PlayerController_AttackStates.cs",
 		"/C/Users/Clark/AppData/Local/Temp/7zO40D0CC8D/Concepts.txt",
@@ -717,30 +742,11 @@
 		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/debug.h",
 		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/includes.h",
 		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/main.c",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/makefile",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/uart.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/uart.c",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/.gitignore",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/sparse_clib.c",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/crc.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/Sam_Test.bin",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/clib.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/handlers.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/handlers.c",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/Sam_Test.hex",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/Sam_Test.lss",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/device/component/component_scif.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/device/boot_system_sam4l.h",
-		"/C/Users/Clark/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/Clark/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/device/boot_vectors.c",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/device/boot_vectors.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/inc/device/component/component_pm.h",
-		"/D/Programming/Projects/work/embedded/atmel_bootloader/src/util.c"
+		"/D/Programming/Projects/work/embedded/atmel_bootloader/makefile"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -755,6 +761,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bigfile",
+			".",
+			"UAH",
+			"line",
+			"bigfile",
+			"word_count",
+			"~",
+			"num_words",
+			"word_count",
+			"sentence",
+			"working_copy",
+			"out_file",
 			"hang",
 			"HANG",
 			"hang",
@@ -870,19 +888,7 @@
 			"ssGroundCharge",
 			"UpdateFacingRight",
 			"lightAttackImpulse",
-			"short",
-			"ssHitStun",
-			"TimerStateInfo",
-			"HitStunInfo",
-			"TimerStateInfo",
-			"HitStunInfo",
-			"_al",
-			"preferred_speed_x",
-			"move_speed_grounded",
-			"ssFalling",
-			"jump_held",
-			"Move",
-			"DriftMovement"
+			"short"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -911,11 +917,16 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -930,11 +941,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -960,7 +978,7 @@
 	"project": "cs121.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -969,6 +987,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"main",
+				"Homework2\\Program3\\src\\main.cpp"
+			],
+			[
+				"cmake",
+				"Homework2\\Program1\\CMakeLists.txt"
+			],
 			[
 				"controller",
 				"Assets\\scripts\\Core\\Controller2D.cs"
@@ -1362,10 +1388,6 @@
 				"src\\uart.c"
 			],
 			[
-				"main",
-				"src\\main.c"
-			],
-			[
 				"debug",
 				"inc\\debug.h"
 			],
@@ -1476,10 +1498,6 @@
 			[
 				"web",
 				"src\\websocket.h"
-			],
-			[
-				"httpd",
-				"src\\httpd.c"
 			]
 		],
 		"width": 0.0
