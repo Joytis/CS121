@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"swap",
+				"swap_count"
+			],
+			[
+				"test",
+				"test_empty"
+			],
+			[
+				"switch",
+				"switch_blocks"
+			],
+			[
+				"robot",
+				"robot_move_to"
+			],
+			[
+				"compare",
+				"compare_blocks\t(functionlib.hpp)"
+			],
+			[
 				"pre",
 				"predictive"
 			],
@@ -20,10 +40,6 @@
 				"sort_storage"
 			],
 			[
-				"swap",
-				"swap_times"
-			],
-			[
 				"ARRAY",
 				"ARRAY_SIZE"
 			],
@@ -38,10 +54,6 @@
 			[
 				"rob",
 				"rob_position"
-			],
-			[
-				"robot",
-				"robot_move_difference"
 			],
 			[
 				"shift",
@@ -502,18 +514,6 @@
 			[
 				"JUMP_KEY_",
 				"JUMP_KEY_DOWN"
-			],
-			[
-				"U",
-				"UPDATE\t(PlayerController.cs)"
-			],
-			[
-				"Add",
-				"AddTransition"
-			],
-			[
-				"Tar",
-				"Target\t(Transition.cs)"
 			]
 		]
 	},
@@ -523,9 +523,17 @@
 			"file": "BabyBlockBot/src/main.cpp",
 			"settings":
 			{
-				"buffer_size": 6704,
+				"buffer_size": 7754,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BabyBlockBot/src/functionlib.hpp",
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -533,11 +541,11 @@
 			"settings":
 			{
 				"buffer_size": 4292,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "baby_block_bot (OSX)",
+	"build_system": "baby_block_bot (Windows)",
 	"build_system_choices":
 	[
 		[
@@ -563,6 +571,54 @@
 				"baby_block_bot (OSX)",
 				""
 			]
+		],
+		[
+			[
+				[
+					"baby_block_bot (Windows)",
+					""
+				],
+				[
+					"baby_block_bot (Windows)",
+					"ALL_BUILD [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Continuous [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Experimental [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Nightly [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"NightlyMemoryCheck [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"RUN_TESTS [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"ZERO_CHECK [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"BabyBlockBot/baby_block_bot [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"BabyBlockBot/RUN_TESTS [Debug]"
+				]
+			],
+			[
+				"baby_block_bot (Windows)",
+				""
+			]
 		]
 	],
 	"build_varint": "",
@@ -577,6 +633,34 @@
 				"CMakeBuilder: Run CTest"
 			],
 			[
+				"WriteBuild",
+				"CMakeBuilder: Write Build Targets to Sublime Project File"
+			],
+			[
+				"diag",
+				"CMakeBuilder: Diagnose (What Should I Do?)"
+			],
+			[
+				"Configure",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"Diagnose",
+				"CMakeBuilder: Diagnose (What Should I Do?)"
+			],
+			[
+				"Cmake",
+				"CMakeBuilder: New Project"
+			],
+			[
+				"CMakeBUilder",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"CMake",
+				"CMakeBuilder: New Project"
+			],
+			[
 				"tex",
 				"Text Pastry: Range (numeric)"
 			],
@@ -587,10 +671,6 @@
 			[
 				"JSON",
 				"Set Syntax: JSON"
-			],
-			[
-				"CMake",
-				"CMakeBuilder: Run CTest"
 			],
 			[
 				"Json",
@@ -610,10 +690,6 @@
 			],
 			[
 				"clear",
-				"CMakeBuilder: Clear Cache"
-			],
-			[
-				"Cmake",
 				"CMakeBuilder: Clear Cache"
 			],
 			[
@@ -689,7 +765,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 612.0
 	},
 	"console":
 	{
@@ -714,12 +790,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot",
-		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot",
-		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/src"
+		"/D/Programming/School/CS121/CS121_BabyBlock"
 	],
 	"file_history":
 	[
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/src/main.cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/src/function_lib.cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/CMakeLists.txt",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block_bot.sublime-project",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block/baby_block.sublime-project",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block/CMakeLists.txt",
 		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/CMakeLists.txt",
 		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/baby_block_bot.sublime-project",
 		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/src/main.cpp",
@@ -841,17 +921,11 @@
 		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/GameConstants",
 		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/HealthComponent.cs",
 		"/Users/Clark/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/StateMachines/IState.cs",
-		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/StateMachines/ITrigger.cs",
-		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/main_game.sublime-project",
-		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/main_game.sublime-workspace.meta",
-		"/Users/Clark/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/Clark/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/Clark/Documents/Work/nix/SDK_ntc_2.0.29.11/dependencies.sh"
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/StateMachines/IState.cs"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -865,6 +939,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"expand_range",
+			"robot_move_difference",
 			"{",
 			"count",
 			"predict",
@@ -921,12 +997,7 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -935,38 +1006,44 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6704,
+						"buffer_size": 7754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1998,
-								1998
+								4099,
+								4099
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": false,
+							"git_gutter_is_enabled": true,
 							"history_list_is_closing": true,
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 140.0,
+						"translation.y": 1104.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 1,
-					"file": "BabyBlockBot/src/function_lib.cpp",
+					"buffer": 0,
+					"file": "BabyBlockBot/src/main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4292,
+						"buffer_size": 7754,
 						"regions":
 						{
 						},
@@ -979,7 +1056,8 @@
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": false,
+							"git_gutter_is_enabled": true,
+							"history_list_is_closing": true,
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -987,7 +1065,66 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "BabyBlockBot/src/functionlib.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "BabyBlockBot/src/function_lib.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1033,7 +1170,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 241.0
+		"height": 448.0
 	},
 	"output.files_to_be_deleted":
 	{
@@ -1043,11 +1180,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "baby_block_bot (OSX)",
+	"pinned_build_system": "baby_block_bot (Windows)",
 	"project": "baby_block_bot.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1057,16 +1194,28 @@
 		"selected_items":
 		[
 			[
-				"function",
-				"BabyBlockBot/src/functionlib.hpp"
+				"main",
+				"BabyBlockBot\\src\\main.cpp"
 			],
 			[
-				"main",
-				"BabyBlockBot/src/main.cpp"
+				"function",
+				"BabyBlockBot\\src\\function_lib.cpp"
+			],
+			[
+				"project",
+				"baby_block_bot.sublime-project"
+			],
+			[
+				"cma",
+				"CMakeLists.txt"
+			],
+			[
+				"projec",
+				"baby_block_bot.sublime-project"
 			],
 			[
 				"cmake",
-				"BabyBlockBot/CMakeLists.txt"
+				"CMakeLists.txt"
 			],
 			[
 				"funciton",
@@ -1103,10 +1252,6 @@
 			[
 				"",
 				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/weather_station_bonanza.txt"
-			],
-			[
-				"cma",
-				"CMakeLists.txt"
 			],
 			[
 				"c",
@@ -1165,15 +1310,7 @@
 				"homework3p2group.sublime-project"
 			],
 			[
-				"projec",
-				"homework3p2group.sublime-project"
-			],
-			[
 				"homew",
-				"homework3p2group.sublime-project"
-			],
-			[
-				"project",
 				"homework3p2group.sublime-project"
 			],
 			[
@@ -1596,7 +1733,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":

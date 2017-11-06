@@ -12,33 +12,16 @@
 using namespace std;
 using map = std::unordered_map<char, int>;
 
-// NOTE(clark): Originally, I thought that sorting the values on the fly was the correct solution
-//				to this problem of minimum calls to 'swap_block. However, this is very much not 
-// 				the case. The robot has the ability to process information outside its immidiate
-//				action, or else it would not be able to keep track of its place in whatever sorting
-//				algorithm currently being run. Therefore, the prompt allows we store information
-//				external to the currently held block. 
-//					This being the case, the way to minimise the base operation is thereby to 
-//				storing the array in 'memory', sorting the array in 'memory', and then reconstructing 
-//				the blocks in the 'physical' array of blocks to resemble the sorted memory array. 
-//				This cuts down on ALL extraneous swaps assuming that each swap places a block in the 
-//				correct position. This may not be true for all cases, but we can try our best.
-// 					Furthermore, we can cut down on MORE swap_block calls if we do a kind of 'predictive
-//				placement'. Considering there is only 20 slots for our robot and the blocks are in 
-//				alphabetical order, we can place there blocks where we could /expect/ them to be 
-//				alphabetically. 
-// 					Now, this means that the sorting algorithm is completely irrelavent to optimizing
-//				the problem, considering we are sorting it before we even touch a block. This 
-//				considered, I chose quicksort because it makes me feel good. 
-
 // Little macro for size. 
 #define ARRAY_SIZE(x) (sizeof(x) / sizeof(x[0]))
 
 // Yay. Quicksort. 
 void quicksort(char arr[], int left, int right);
-void robot_move_difference(int &position, int end);
+void robot_move_to(int &position, int end);
 char swap_and_count(char robot, int position, char array[], int &count);
 int expand_range(int pos, char store[]);
+
+#define MAX_BLOCKS (20)
 
 
 
@@ -57,14 +40,16 @@ int main(int argc, char **argv) {
 	};
 
 	// Always 20 blocks stored. 
-	char block_storage[20] = {}; 
-	char sort_storage[20] = {};
-	char block_memory[20] = {};
-
+	char block_storage[MAX_BLOCKS] = {};
+	// NOTE(clark): I'm not sure if VS2012 automatically initializes empty initializer
+	//				list stuff to 0, so i'm just setting it here. 
+	for(int i = 0; i < ARRAY_SIZE(block_storage); i++) {
+		block_storage[i] = 0;
+	} 
 
 	// We want the program and the name of the file to open. 
 	if(argc != 2) {
-		cout << "Please enter a file to sort." << endl;
+		cout << "Please enter a file to read." << endl;
 		return -1;
 	}
 
@@ -76,79 +61,109 @@ int main(int argc, char **argv) {
 		return -1;
 	}
 
-	// Get all those blocks! Wow!
-	while(infile.good()) {
-		// Stuff the blocks into the block array and RECORD their values in ref array
-		char input = tolower(get_block(infile));
-		int predict = char_map[input];
-
-		// Check for collision
-		if(block_storage[predict] != 0) {
-			predict = expand_range(predict, block_storage);
-		}
-
-		// Put the block in the ACTUAL BLOCK ARRAY
-		put_block(input, predict, block_storage);
-
-		// Put put the 'value' in the SORTED STORAGE
-		sort_storage[predict] = input;
-		// Put put the 'value' in the UNSORTED STORAGE
-		block_memory[predict] = input;
-	}
-
-
-	// We don't care about the blocks right now. Sort the reference. 
-	quicksort(sort_storage, 0, ARRAY_SIZE(sort_storage) - 1);
-
-	//=================================================================
-	// Actual Robot Code
-	//=================================================================
-	int swap_times = 0;
+	// Robot reading code
+	//=============================
+	char robot = 0;
+	int swap_count = 0;
 	int position = 0;
-	char robot = ' ';
+	int swap_position = 0;
+	int offset = 1;
+	// Just a quick toggle for filing to the right or left. 
+	// right is true, left is false
+	bool fill_direction = false;
 
-	// Here's where we sort 
-	for(int i = 0; i < (int)ARRAY_SIZE(block_storage) - 1; i++) {
-		// If we know the block is sorted, chill. 
-		if(block_memory[i] == sort_storage[i]) {
-			continue;
+	// DO NOT EXCEED MAX OF 20 BLOCKS
+	int count = 0;
+	// Get all those blocks! Wow!
+	while(infile.good() && (count++ < MAX_BLOCKS)) {
+		// Stuff the blocks into the block array and RECORD their values in ref array
+		robot = (char)tolower(get_block(infile));
+
+		// Move robot arm to predicted position
+		robot_move_to(position, char_map[robot]);
+
+		// Check for collision. If there is, time to shift things around. 
+		if(!test_empty(position, block_storage)) {
+
+			// Find a position to swap at
+			//=======================================================================
+			// If we're less than the block, we should be leftwards from it
+			if(compare_blocks(robot, block_storage[position])){
+				fill_direction = false;
+				// Continue until a block is found greater than block or out of range
+				while(compare_blocks(robot, block_storage[position]) && position != 0){
+					// If the space is empty, then we're done regardless
+					if(test_empty(position, block_storage)) break;
+					robot_move_to(position, position - 1);
+				}
+				// If we're at the end of the rope, reverse shift direction
+				if(position == 0) {
+					fill_direction = true;
+					if(!compare_blocks(robot, block_storage[position])) {
+						robot_move_to(position, 1);
+					}
+				}
+			}
+			// If we're greater than the block, we should be rightwards from it
+			else{
+				fill_direction = true;
+				// continue until find block less than char or at max
+				while(!compare_blocks(robot, block_storage[position]) && position != 19){
+					// If we're at the end of the rope, reverse shift direction and break
+					// If the space is empty, then we're done regardless
+					if(test_empty(position, block_storage)) break;
+					robot_move_to(position, position + 1);
+				}
+				// If we're at the end of the rope, reverse shift direction
+				if(position == 19) {
+					fill_direction = false;
+					// if(compare_blocks(robot, block_storage[position])) {
+						// robot_move_to(position, 18);
+					// }
+				}
+			}
+
+			// Test if the current space is just empty. If so, just stick block here 
+			//	and move on. 
+			if(test_empty(position, block_storage)) {
+				put_block(robot, position, block_storage);
+				continue;
+			}
+
+
+			// The current position will be the target position for the block
+			swap_position = position;
 		}
 
-		robot_move_difference(position, i);
-		robot = swap_and_count(robot, position, block_storage, swap_times);
-
-		// NOTE(clark): This could be condensed. 
-		// Search optimistically for a block with the same value to swap
-
-		// Search for the correctly sorted block. It WILL exist. 
-		for(int j = i + 1; j < (int)ARRAY_SIZE(block_storage); j++) {
-
-			if(block_memory[j] == sort_storage[i]){
-				robot_move_difference(position, j);
-				// Update the memory
-				block_memory[j] = robot;
-				robot = swap_and_count(robot, position, block_storage, swap_times);
-				robot_move_difference(position, i);
-				// Update the memory
-				block_memory[i] = robot;
-				robot = swap_and_count(robot, position, block_storage, swap_times);
-				break;
+		// Finally, start swapping blocks
+		//=======================================================================
+		// Continue swapping until the robot doesn't have anything it its hand. This
+		// will happen once things have been shifted over. 
+		while(robot != 0) {
+			robot = swap_and_count(robot, position, block_storage, swap_count);
+			if(fill_direction){
+				robot_move_to(position, position + 1);
+			}
+			else {
+				robot_move_to(position, position - 1);
 			}
 		}
-
-		// TRY TO ENSURE ROBOT IS EMPTY AT END OF LOOP. 
-	}	
+	}
 
 	// print values. 
-	for(int i = 0; i < (int)ARRAY_SIZE(sort_storage); i++){
+	cout << endl << "===================================" << endl
+		 << "RESULTS" << endl << "===================================" 
+		 << endl << endl;
+
+	for(int i = 0; i < (int)ARRAY_SIZE(block_storage); i++){
 		cout << block_storage[i];
 	}
-	cout << " " << swap_times << endl;
+	cout << " " << swap_count << endl;
 
 	return 0;
 }
 
-void robot_move_difference(int &position, int end) {
+void robot_move_to(int &position, int end) {
 	int diff = position - end;
 	if(diff < 0) {
 		diff *= -1;
@@ -193,44 +208,44 @@ int expand_range(int pos, char store[]) {
 }
 
 
-// Classic quicksort right here. 
-void quicksort(char arr[], int left, int right)
-{
-	int i = left;
-	int j = right;
-	char tmp;
+// // Classic quicksort right here. 
+// void quicksort(char arr[], int left, int right)
+// {
+// 	int i = left;
+// 	int j = right;
+// 	char tmp;
 
-	// set quicksort pivot at half, I guess. 
-	int pivot_pos = (left + right) / 2;
-	char pivot = arr[pivot_pos];
+// 	// set quicksort pivot at half, I guess. 
+// 	int pivot_pos = (left + right) / 2;
+// 	char pivot = arr[pivot_pos];
 
-	// Main partition loop
-	while (i <= j) {
-		// Check if things have already been partitioned(left)
-		while (arr[i] < pivot){
-			i++;
-		}
-		// Check if things have already been partitioned (right)
-		while (arr[j] > pivot)
-			j--;
-		// Swap the values that are < and > than pivot. 
-		if (i <= j) {
-			tmp = arr[i];
-			arr[i] = arr[j];
-			arr[j] = tmp;
+// 	// Main partition loop
+// 	while (i <= j) {
+// 		// Check if things have already been partitioned(left)
+// 		while (arr[i] < pivot){
+// 			i++;
+// 		}
+// 		// Check if things have already been partitioned (right)
+// 		while (arr[j] > pivot)
+// 			j--;
+// 		// Swap the values that are < and > than pivot. 
+// 		if (i <= j) {
+// 			tmp = arr[i];
+// 			arr[i] = arr[j];
+// 			arr[j] = tmp;
 
-			// move on our merry little way. 
-			i++;
-			j--;
-		}
-	}
+// 			// move on our merry little way. 
+// 			i++;
+// 			j--;
+// 		}
+// 	}
 
-	// Recursive partitioning. 
-	if (j > left)
-		// leftwards partition.
-		quicksort(arr, left, j);
-	if (i < right)
-		// Rightwards partition.
-		quicksort(arr, i, right);
-}
+// 	// Recursive partitioning. 
+// 	if (j > left)
+// 		// leftwards partition.
+// 		quicksort(arr, left, j);
+// 	if (i < right)
+// 		// Rightwards partition.
+// 		quicksort(arr, i, right);
+// }
 
