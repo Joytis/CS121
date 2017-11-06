@@ -1,13 +1,8 @@
-// 1. Design and write a program that will accept a sentence as 
-// input, reverse the words and print the sentence out backwards. 
-
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <cctype>
 #include <unordered_map>
-
-#include "functionlib.hpp"
 
 using namespace std;
 using map = std::unordered_map<char, int>;
@@ -21,9 +16,18 @@ void robot_move_to(int &position, int end);
 char swap_and_count(char robot, int position, char array[], int &count);
 int expand_range(int pos, char store[]);
 
+
+// function libb
+
+char get_block(std::istream &stream);
+int put_block(char block, int position, char array[]);
+int shift_right(int position);
+int shift_left(int position);
+bool compare_blocks(char robot, char in_slot);
+char switch_blocks(char robot, int position, char array[]);
+bool test_empty(int position, char array[]);
+
 #define MAX_BLOCKS (20)
-
-
 
 int main(int argc, char **argv) {
 
@@ -67,7 +71,7 @@ int main(int argc, char **argv) {
 	int swap_count = 0;
 	int position = 0;
 	int swap_position = 0;
-	int offset = 1;
+	
 	// Just a quick toggle for filing to the right or left. 
 	// right is true, left is false
 	bool fill_direction = false;
@@ -205,4 +209,66 @@ int expand_range(int pos, char store[]) {
 	}
 
 	return -1;
+}
+
+char get_block(std::istream &stream)
+{
+	char block;
+	stream >> block;
+	return block;
+}
+
+int put_block(char block, int position, char array[])
+{
+	array[position] = block;
+	cout << "Block " << block << " inserted into slot " << position << endl;
+	return position;
+}
+
+int shift_right(int position)
+{
+	position++;
+	cout << "Position right shifted to " << position << endl;
+	return position;
+}
+
+int shift_left(int position) {
+	position--;
+	cout << "Position left shifted to " << position << endl;
+	return position;
+}
+bool compare_blocks(char robot, char in_slot) {
+	
+	cout << endl <<  "Comparing robot block " << robot << " with block in slot " << in_slot << endl;
+	if (robot <= in_slot)
+	{
+		cout << "returning true. Robot block LESS than or EQUAL to block in slot. " << endl;
+		return true;
+	}
+	else
+	{
+		cout << "returning false. Robot block GREATER than block in slot. " << endl;
+		return false;
+	}
+}
+
+char switch_blocks(char robot, int position, char array[]) {
+	char temp_hold;
+
+	cout << "Switching blocks " << robot << " with " << array[position] << endl;
+	temp_hold = robot;
+	robot = array[position];
+	array[position] = temp_hold;
+	return robot;
+}
+bool test_empty(int position, char array[]) {
+	if  (array[position] == 0) {
+		cout << "Slot " << position << " empty. " << endl;
+		return true;
+	}
+	else {
+		cout << "Slot " << position << " contains a block " << endl;
+		return false;
+	}
+
 }
