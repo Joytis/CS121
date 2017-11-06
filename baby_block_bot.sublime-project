@@ -1,0 +1,233 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "feature_test_cpp17 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "cpp17_tests",
+					"shell_cmd": "make -j4 cpp17_tests"
+				},
+				{
+					"name": "src/main.o",
+					"shell_cmd": "make -j4 src/main.o"
+				},
+				{
+					"name": "src/main.i",
+					"shell_cmd": "make -j4 src/main.i"
+				},
+				{
+					"name": "src/main.s",
+					"shell_cmd": "make -j4 src/main.s"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "homework3p2 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "program1",
+					"shell_cmd": "make -j4 program1"
+				},
+				{
+					"name": "program2",
+					"shell_cmd": "make -j4 program2"
+				},
+				{
+					"name": "program3",
+					"shell_cmd": "make -j4 program3"
+				},
+				{
+					"name": "program4",
+					"shell_cmd": "make -j4 program4"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "baby_block_bot (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "ContinuousCoverage",
+					"shell_cmd": "make -j4 ContinuousCoverage"
+				},
+				{
+					"name": "ContinuousTest",
+					"shell_cmd": "make -j4 ContinuousTest"
+				},
+				{
+					"name": "ContinuousBuild",
+					"shell_cmd": "make -j4 ContinuousBuild"
+				},
+				{
+					"name": "ContinuousStart",
+					"shell_cmd": "make -j4 ContinuousStart"
+				},
+				{
+					"name": "ExperimentalBuild",
+					"shell_cmd": "make -j4 ExperimentalBuild"
+				},
+				{
+					"name": "ExperimentalCoverage",
+					"shell_cmd": "make -j4 ExperimentalCoverage"
+				},
+				{
+					"name": "ExperimentalSubmit",
+					"shell_cmd": "make -j4 ExperimentalSubmit"
+				},
+				{
+					"name": "ContinuousUpdate",
+					"shell_cmd": "make -j4 ContinuousUpdate"
+				},
+				{
+					"name": "ExperimentalUpdate",
+					"shell_cmd": "make -j4 ExperimentalUpdate"
+				},
+				{
+					"name": "ExperimentalStart",
+					"shell_cmd": "make -j4 ExperimentalStart"
+				},
+				{
+					"name": "ContinuousSubmit",
+					"shell_cmd": "make -j4 ContinuousSubmit"
+				},
+				{
+					"name": "ExperimentalTest",
+					"shell_cmd": "make -j4 ExperimentalTest"
+				},
+				{
+					"name": "NightlySubmit",
+					"shell_cmd": "make -j4 NightlySubmit"
+				},
+				{
+					"name": "NightlyMemCheck",
+					"shell_cmd": "make -j4 NightlyMemCheck"
+				},
+				{
+					"name": "test",
+					"shell_cmd": "make -j4 test"
+				},
+				{
+					"name": "ExperimentalConfigure",
+					"shell_cmd": "make -j4 ExperimentalConfigure"
+				},
+				{
+					"name": "NightlyCoverage",
+					"shell_cmd": "make -j4 NightlyCoverage"
+				},
+				{
+					"name": "NightlyTest",
+					"shell_cmd": "make -j4 NightlyTest"
+				},
+				{
+					"name": "ContinuousMemCheck",
+					"shell_cmd": "make -j4 ContinuousMemCheck"
+				},
+				{
+					"name": "NightlyBuild",
+					"shell_cmd": "make -j4 NightlyBuild"
+				},
+				{
+					"name": "NightlyConfigure",
+					"shell_cmd": "make -j4 NightlyConfigure"
+				},
+				{
+					"name": "NightlyUpdate",
+					"shell_cmd": "make -j4 NightlyUpdate"
+				},
+				{
+					"name": "NightlyMemoryCheck",
+					"shell_cmd": "make -j4 NightlyMemoryCheck"
+				},
+				{
+					"name": "ContinuousConfigure",
+					"shell_cmd": "make -j4 ContinuousConfigure"
+				},
+				{
+					"name": "Nightly",
+					"shell_cmd": "make -j4 Nightly"
+				},
+				{
+					"name": "NightlyStart",
+					"shell_cmd": "make -j4 NightlyStart"
+				},
+				{
+					"name": "ExperimentalMemCheck",
+					"shell_cmd": "make -j4 ExperimentalMemCheck"
+				},
+				{
+					"name": "Continuous",
+					"shell_cmd": "make -j4 Continuous"
+				},
+				{
+					"name": "Experimental",
+					"shell_cmd": "make -j4 Experimental"
+				},
+				{
+					"name": "baby_block_bot",
+					"shell_cmd": "make -j4 baby_block_bot"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		}
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"build"
+			],
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+			"command_line_overrides":
+			{
+				"CMAKE_CXX_COMPILER": "/usr/local/Cellar/gcc/7.2.0/bin/g++-7",
+				"CMAKE_C_COMPILER": "/usr/local/Cellar/gcc/7.2.0/bin/gcc-7"
+			}
+		}
+	}
+}
