@@ -1,0 +1,72 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^  (.+)\\((\\d+)\\)(): ((?:fatal )?(?:error|warning) \\w+\\d\\d\\d\\d: .*) \\[.*$",
+			"name": "baby_block_bot (Windows)",
+			"shell_cmd": "cmake --build .",
+			"syntax": "Packages/CMakeBuilder/Syntax/Visual_Studio.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "ALL_BUILD [Debug]",
+					"shell_cmd": "cmake --build . --target ALL_BUILD --config Debug"
+				},
+				{
+					"name": "Continuous [Debug]",
+					"shell_cmd": "cmake --build . --target Continuous --config Debug"
+				},
+				{
+					"name": "Experimental [Debug]",
+					"shell_cmd": "cmake --build . --target Experimental --config Debug"
+				},
+				{
+					"name": "Nightly [Debug]",
+					"shell_cmd": "cmake --build . --target Nightly --config Debug"
+				},
+				{
+					"name": "NightlyMemoryCheck [Debug]",
+					"shell_cmd": "cmake --build . --target NightlyMemoryCheck --config Debug"
+				},
+				{
+					"name": "RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target RUN_TESTS --config Debug"
+				},
+				{
+					"name": "ZERO_CHECK [Debug]",
+					"shell_cmd": "cmake --build . --target ZERO_CHECK --config Debug"
+				},
+				{
+					"name": "BabyBlockBot/baby_block_bot [Debug]",
+					"shell_cmd": "cmake --build . --target BabyBlockBot/baby_block_bot --config Debug"
+				},
+				{
+					"name": "BabyBlockBot/RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target BabyBlockBot/RUN_TESTS --config Debug"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+			"windows":
+			{
+				"configurations":
+				[
+					"Debug"
+				],
+				"generator": "Visual Studio"
+			}
+		}
+	}
+}
