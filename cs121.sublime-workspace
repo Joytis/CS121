@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -607,11 +615,8 @@
 	[
 		"/D/Programming/CS121",
 		"/D/Programming/CS121/Homework2",
-		"/D/Programming/CS121/Homework2/Program4",
-		"/D/Programming/CS121/Homework2/Program4/cmake",
-		"/D/Programming/CS121/Homework2/Program4/src",
-		"/D/Programming/CS121/ProjectSkeleton",
-		"/D/Programming/CS121/ProjectSkeleton/bin"
+		"/D/Programming/CS121/Homework2/Program1",
+		"/D/Programming/CS121/Homework2/Program1/src"
 	],
 	"file_history":
 	[
@@ -746,7 +751,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -914,8 +919,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/Shell Script (Git).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -926,7 +961,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -978,7 +1013,7 @@
 	"project": "cs121.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

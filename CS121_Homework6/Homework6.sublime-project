@@ -1,0 +1,92 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^  (.+)\\((\\d+)\\)(): ((?:fatal )?(?:error|warning) \\w+\\d\\d\\d\\d: .*) \\[.*$",
+			"name": "Homework6 (Windows)",
+			"shell_cmd": "cmake --build .",
+			"syntax": "Packages/CMakeBuilder/Syntax/Visual_Studio.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "ALL_BUILD [Debug]",
+					"shell_cmd": "cmake --build . --target ALL_BUILD --config Debug"
+				},
+				{
+					"name": "Continuous [Debug]",
+					"shell_cmd": "cmake --build . --target Continuous --config Debug"
+				},
+				{
+					"name": "Experimental [Debug]",
+					"shell_cmd": "cmake --build . --target Experimental --config Debug"
+				},
+				{
+					"name": "Nightly [Debug]",
+					"shell_cmd": "cmake --build . --target Nightly --config Debug"
+				},
+				{
+					"name": "NightlyMemoryCheck [Debug]",
+					"shell_cmd": "cmake --build . --target NightlyMemoryCheck --config Debug"
+				},
+				{
+					"name": "RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target RUN_TESTS --config Debug"
+				},
+				{
+					"name": "ZERO_CHECK [Debug]",
+					"shell_cmd": "cmake --build . --target ZERO_CHECK --config Debug"
+				},
+				{
+					"name": "assignment1/assignment1 [Debug]",
+					"shell_cmd": "cmake --build . --target assignment1/assignment1 --config Debug"
+				},
+				{
+					"name": "assignment1/RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target assignment1/RUN_TESTS --config Debug"
+				},
+				{
+					"name": "assignment2/assignment2 [Debug]",
+					"shell_cmd": "cmake --build . --target assignment2/assignment2 --config Debug"
+				},
+				{
+					"name": "assignment2/RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target assignment2/RUN_TESTS --config Debug"
+				},
+				{
+					"name": "assignment3/assignment3 [Debug]",
+					"shell_cmd": "cmake --build . --target assignment3/assignment3 --config Debug"
+				},
+				{
+					"name": "assignment3/RUN_TESTS [Debug]",
+					"shell_cmd": "cmake --build . --target assignment3/RUN_TESTS --config Debug"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		}
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"build"
+			],
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+			"windows":
+			{
+				"configurations":
+				[
+					"Debug"
+				],
+				"generator": "Visual Studio"
+			}
+		}
+	}
+}

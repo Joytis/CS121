@@ -1,0 +1,163 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "feature_test_cpp17 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "cpp17_tests",
+					"shell_cmd": "make -j4 cpp17_tests"
+				},
+				{
+					"name": "src/main.o",
+					"shell_cmd": "make -j4 src/main.o"
+				},
+				{
+					"name": "src/main.i",
+					"shell_cmd": "make -j4 src/main.i"
+				},
+				{
+					"name": "src/main.s",
+					"shell_cmd": "make -j4 src/main.s"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "homework3p2 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "program1",
+					"shell_cmd": "make -j4 program1"
+				},
+				{
+					"name": "program2",
+					"shell_cmd": "make -j4 program2"
+				},
+				{
+					"name": "program3",
+					"shell_cmd": "make -j4 program3"
+				},
+				{
+					"name": "program4",
+					"shell_cmd": "make -j4 program4"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "homework4 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "program1",
+					"shell_cmd": "make -j4 program1"
+				},
+				{
+					"name": "program2",
+					"shell_cmd": "make -j4 program2"
+				},
+				{
+					"name": "program3",
+					"shell_cmd": "make -j4 program3"
+				},
+				{
+					"name": "program4",
+					"shell_cmd": "make -j4 program4"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		},
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "homework4_proj (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean"
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache"
+				},
+				{
+					"name": "program1",
+					"shell_cmd": "make -j4 program1"
+				},
+				{
+					"name": "program2",
+					"shell_cmd": "make -j4 program2"
+				},
+				{
+					"name": "program3",
+					"shell_cmd": "make -j4 program3"
+				},
+				{
+					"name": "program4",
+					"shell_cmd": "make -j4 program4"
+				}
+			],
+			"working_dir": "${project_path}/build"
+		}
+	],
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"build"
+			],
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+			"command_line_overrides":
+			{
+				"CMAKE_CXX_COMPILER": "/usr/local/Cellar/gcc/7.2.0/bin/g++-7",
+				"CMAKE_C_COMPILER": "/usr/local/Cellar/gcc/7.2.0/bin/gcc-7"
+			}
+		}
+	}
+}

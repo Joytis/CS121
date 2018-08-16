@@ -1,0 +1,1770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wind",
+				"windSpeed"
+			],
+			[
+				"max",
+				"max_wind"
+			],
+			[
+				"low",
+				"low_temp"
+			],
+			[
+				"high",
+				"high_temp"
+			],
+			[
+				"print",
+				"print_station_data"
+			],
+			[
+				"pre",
+				"precip"
+			],
+			[
+				"stat",
+				"station_data"
+			],
+			[
+				"read",
+				"read_daily_data"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"row",
+				"row_lines"
+			],
+			[
+				"col",
+				"column_lines"
+			],
+			[
+				"column",
+				"column_words"
+			],
+			[
+				"swap",
+				"swap_position"
+			],
+			[
+				"test",
+				"test_empty"
+			],
+			[
+				"switch",
+				"switch_blocks"
+			],
+			[
+				"robot",
+				"robot_move_to"
+			],
+			[
+				"compare",
+				"compare_blocks\t(functionlib.hpp)"
+			],
+			[
+				"block",
+				"block_storage"
+			],
+			[
+				"char",
+				"char_map"
+			],
+			[
+				"sort",
+				"sort_storage"
+			],
+			[
+				"ARRAY",
+				"ARRAY_SIZE"
+			],
+			[
+				"bloc",
+				"block_storage"
+			],
+			[
+				"ref",
+				"ref_storage"
+			],
+			[
+				"rob",
+				"rob_position"
+			],
+			[
+				"shift",
+				"shift_left\t(functionlib.hpp)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"in",
+				"infile"
+			],
+			[
+				"sie",
+				"size_t"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"curren",
+				"current_line"
+			],
+			[
+				"min",
+				"max_station"
+			],
+			[
+				"cu",
+				"current_tmin"
+			],
+			[
+				"current",
+				"current_tmax"
+			],
+			[
+				"cur",
+				"current_tmax"
+			],
+			[
+				"if",
+				"ifstream\t(main1.cpp)"
+			],
+			[
+				"tm",
+				"tmax_val"
+			],
+			[
+				"tmin",
+				"tmin_val"
+			],
+			[
+				"tmax",
+				"tmax_val"
+			],
+			[
+				"TMAX",
+				"TMAX_OFFSET"
+			],
+			[
+				"TMIN",
+				"TMIN_OFFSET"
+			],
+			[
+				"TMIN_",
+				"TMIN_POSITION"
+			],
+			[
+				"TMAX_",
+				"TMAX_POSITION"
+			],
+			[
+				"DATE",
+				"DATE_OFFSET"
+			],
+			[
+				"ST",
+				"STATION_NAME_OFFSET"
+			],
+			[
+				"STAT",
+				"STATION_NAME\t(al_weather_station.txt)"
+			],
+			[
+				"out",
+				"outfile"
+			],
+			[
+				"constr",
+				"construct_string"
+			],
+			[
+				"cons",
+				"construct_string"
+			],
+			[
+				"de",
+				"desired_locations"
+			],
+			[
+				"is_temp",
+				"is_temp_good"
+			],
+			[
+				"cout",
+				"count"
+			],
+			[
+				"is",
+				"is_line_good"
+			],
+			[
+				"cr",
+				"current_line"
+			],
+			[
+				"PRO",
+				"PROJECT_SOURCE_DIR"
+			],
+			[
+				"VER",
+				"VERSION_MAJOR\t(config.h.in)"
+			],
+			[
+				"PROJECT",
+				"PROJECT_SOURCE_DIR"
+			],
+			[
+				"VERSION",
+				"VERSION_MAJOR\t(CMakeLists.txt)"
+			],
+			[
+				"mathlib",
+				"mathlib\t(feature_test_cpp17.sublime-project)"
+			],
+			[
+				"math",
+				"mathLibrary"
+			],
+			[
+				"PROJ",
+				"PROJECT_BINARY_DIR"
+			],
+			[
+				"VERSION_",
+				"VERSION_MAJOR\t(version.h)"
+			],
+			[
+				"PROJEC",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"PlayerAir",
+				"PlayerAirChargeHook"
+			],
+			[
+				"GetComponent",
+				"GetComponentInChildren\t(PlayerController.cs)"
+			],
+			[
+				"Colli",
+				"Collision2D\t(AttackStructures.cs)"
+			],
+			[
+				"FindP",
+				"FindPropertyRelative"
+			],
+			[
+				"hitboxSt",
+				"hitboxStun"
+			],
+			[
+				"entry",
+				"entryState"
+			],
+			[
+				"diretion",
+				"directionLock"
+			],
+			[
+				"facing",
+				"facing_right"
+			],
+			[
+				"direction",
+				"directionLock"
+			],
+			[
+				"Direction",
+				"DirectionLock"
+			],
+			[
+				"horiz",
+				"horiz_mov"
+			],
+			[
+				"WALL",
+				"WALL_SLAM"
+			],
+			[
+				"Cancel",
+				"CancelScreenShake\t(GameController.cs)"
+			],
+			[
+				"shake",
+				"shakeDuration"
+			],
+			[
+				"screen",
+				"ssChannel.info.screenShakeDone"
+			],
+			[
+				"Animation",
+				"AnimationCurve\t(PlayerController.cs)"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"Trigg",
+				"Triggers.GROUNDED"
+			],
+			[
+				"GROUND",
+				"GROUND_SLAM"
+			],
+			[
+				"AIR_",
+				"AIR_CHARGE"
+			],
+			[
+				"ssAirC",
+				"ssAirChargeSlam"
+			],
+			[
+				"AIR",
+				"AIR_CHARGE_SLAM"
+			],
+			[
+				"airChar",
+				"airChargeFallProperties"
+			],
+			[
+				"charge",
+				"chargeProperties"
+			],
+			[
+				"SErialie",
+				"SerializeField"
+			],
+			[
+				"time",
+				"timeToMaxSpeedAir"
+			],
+			[
+				"Physca",
+				"PhysicalProperties"
+			],
+			[
+				"Phys",
+				"PhysicalProperties"
+			],
+			[
+				"Seriali",
+				"SerializeField"
+			],
+			[
+				"ene",
+				"enemies"
+			],
+			[
+				"enemy",
+				"enemyWaves"
+			],
+			[
+				"curre",
+				"currentWave"
+			],
+			[
+				"trans",
+				"transitionTime"
+			],
+			[
+				"tran",
+				"transitionTime"
+			],
+			[
+				"Editor",
+				"EditorHelper"
+			],
+			[
+				"UPdate",
+				"UpdateProperties"
+			],
+			[
+				"Hit",
+				"HitboxDictionary"
+			],
+			[
+				"Hitbox",
+				"HitboxPositionList"
+			],
+			[
+				"Atatck",
+				"AttackLibrary\t(AttackLibraryWindow.cs)"
+			],
+			[
+				"Lable",
+				"LabelField\t(Controller2D_Editor.cs)"
+			],
+			[
+				"Edit",
+				"EditorGUILayout\t(TestWindow_Editor.cs)"
+			],
+			[
+				"Atta",
+				"AttackLibrary"
+			],
+			[
+				"Hi",
+				"HitBoxInfo"
+			],
+			[
+				"Proper",
+				"PropertyField"
+			],
+			[
+				"_for",
+				"_forgive_jump"
+			],
+			[
+				"_jump",
+				"_jump_forgive_frames"
+			],
+			[
+				"_max_jump",
+				"_max_jump_forgive_time"
+			],
+			[
+				"_acce",
+				"_accept_jump"
+			],
+			[
+				"jum",
+				"jump_up"
+			],
+			[
+				"jump",
+				"jump_down"
+			],
+			[
+				"_accept",
+				"_accept_jump_up"
+			],
+			[
+				"JUMP",
+				"JUMP_ACTION"
+			],
+			[
+				"_move",
+				"_movement"
+			],
+			[
+				"_tre",
+				"_true_velocity.y"
+			],
+			[
+				"D_",
+				"DJ_WALK"
+			],
+			[
+				"_movement",
+				"_movement_ss"
+			],
+			[
+				"_moveme",
+				"_movement_ss"
+			],
+			[
+				"DJ_",
+				"DJ_WALK"
+			],
+			[
+				"DJ_WALK",
+				"DJ_WALK_MONSTER"
+			],
+			[
+				"MovS",
+				"MovStates"
+			],
+			[
+				"Set",
+				"SetVelocityX\t(Controller2D.cs)"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"Process",
+				"ProcessTriggers"
+			],
+			[
+				"Act",
+				"ActTriggers.FORCE_EXIT"
+			],
+			[
+				"_max",
+				"_max_roll_time"
+			],
+			[
+				"_roll",
+				"_roll_time"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assignment1/src/main1.cpp",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#include <iostream>\n#include <iomanip>\n#include <fstream>\n#include <string>\n#include <cctype>\n#include <algorithm>\n\nusing namespace std;\n\nstruct timeS\n{\n\tunsigned int hour;\n\tunsigned int minutes;\n\tunsigned int seconds;\n};\n\nstruct date \n{\n\tunsigned int month;\n\tunsigned int day;\n\tunsigned int year;\n};\n\nstruct location\n{\n\tdouble longi, lati, alti;\n};\n\nstruct stationData {\n\tunsigned int hour;\n\tunsigned int minutes;\n\tunsigned int seconds;\n\tdouble temp, windSpeed, bPressure, precip;\n};\nostream& operator<<(ostream& out, const stationData& sd)\n{\n   return out << sd.hour << ':' << sd.hour  << ':' << sd.seconds  << ' ' << sd.temp << ' ' << \n   \t\t\t  << sd.windSpeed << ' ' << sd.bPressure << ' '  << sd.precip;\n}\n\nstruct portableStation\n{\n\tstationData data[24];\n\tdate recordDate;\n\tlocation recordLocation;\n};\n\nvoid findDate (portableStation &stationData){\n\tifstream *infile;\n\tinfile;\n}\n\nvoid findLocation (string stationFile, portableStation &stationData){\n\tstationFile[3]\n\n}\n\n\nint main() {\n\n\tint i = 0, counter = 0;\n\tstring hold;\n\tportableStation stationRecord;\n\tchar ch1 = ' ';\n\n\tifstream infile;\n\tinfile.open(\"C:/Users/CodySanders/Documents/CS121/wsd.txt\");\n\n\tif (infile.good()){\n\t\tcout << \"File was opened for reading!\" << endl;\n\t}\n\telse {\n\t\tcout << \"Damn it, batman!\" << endl;\n\t}\n\n\tgetline(infile, hold);\t\n\tinfile >> hold;\n\tinfile >> stationRecord.recordDate.month;\n\tinfile >> stationRecord.recordDate.day;\n\tinfile >> stationRecord.recordDate.year;\n\n\tinfile >> hold >> hold;\n\tinfile >> stationRecord.recordLocation.longi;\n\tinfile >> hold;\n\tinfile >> stationRecord.recordLocation.lati;\n\tinfile >> hold;\n\tinfile >> stationRecord.recordLocation.alti;\n\n\tgetline(infile, holdA);\t\n\tgetline(infile, holdA);\t\n\n\ti = 0;\n\twhile (infile.good()){\n\t\tinfile >> stationRecord.data[i].hour;\n\t\tinfile.ignore(1);\n\t\tinfile >> stationRecord.data[i].hour;\n\t\tinfile.ignore(1);\n\t\tinfile >> stationRecord.data[i].hour;\n\t\tinfile >> stationRecord.data[i].temp;\n\t\tinfile >> stationRecord.data[i].windSpeed;\n\t\tinfile >> stationRecord.data[i].bPressure;\n\t\tinfile >> stationRecord.data[i].precip;\n\n\t\ti++;\n\t}\n\n\n\n\n\n\n\n\n\n\treturn 0;\n\tsystem(\"pause\");\n}\n",
+			"file": "main4.cpp",
+			"file_size": 2236,
+			"file_write_time": 131561467650005984,
+			"settings":
+			{
+				"buffer_size": 2119,
+				"line_ending": "Windows",
+				"name": "njkdlwnajlkdwa"
+			}
+		}
+	],
+	"build_system": "Homework6 (Windows)",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Homework6 (Windows)",
+					""
+				],
+				[
+					"Homework6 (Windows)",
+					"ALL_BUILD [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"Continuous [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"Experimental [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"Nightly [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"NightlyMemoryCheck [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"RUN_TESTS [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"ZERO_CHECK [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment1/assignment1 [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment1/RUN_TESTS [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment2/assignment2 [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment2/RUN_TESTS [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment3/assignment3 [Debug]"
+				],
+				[
+					"Homework6 (Windows)",
+					"assignment3/RUN_TESTS [Debug]"
+				]
+			],
+			[
+				"Homework6 (Windows)",
+				""
+			]
+		],
+		[
+			[
+				[
+					"baby_block_bot (OSX)",
+					""
+				],
+				[
+					"baby_block_bot (OSX)",
+					"clean"
+				],
+				[
+					"baby_block_bot (OSX)",
+					"rebuild_cache"
+				],
+				[
+					"baby_block_bot (OSX)",
+					"baby_block_bot"
+				]
+			],
+			[
+				"baby_block_bot (OSX)",
+				""
+			]
+		],
+		[
+			[
+				[
+					"baby_block_bot (Windows)",
+					""
+				],
+				[
+					"baby_block_bot (Windows)",
+					"ALL_BUILD [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Continuous [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Experimental [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"Nightly [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"NightlyMemoryCheck [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"RUN_TESTS [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"ZERO_CHECK [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"BabyBlockBot/baby_block_bot [Debug]"
+				],
+				[
+					"baby_block_bot (Windows)",
+					"BabyBlockBot/RUN_TESTS [Debug]"
+				]
+			],
+			[
+				"baby_block_bot (Windows)",
+				"ALL_BUILD [Debug]"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Clear",
+				"CMakeBuilder: Clear Cache"
+			],
+			[
+				"Write Bui",
+				"CMakeBuilder: Write Build Targets to Sublime Project File"
+			],
+			[
+				"Cmake",
+				"CMakeBuilder: Diagnose (What Should I Do?)"
+			],
+			[
+				"CmakeBui",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"text",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"CTest",
+				"CMakeBuilder: Run CTest"
+			],
+			[
+				"",
+				"CMakeBuilder: Clear Cache"
+			],
+			[
+				"CTEST",
+				"CMakeBuilder: Run CTest"
+			],
+			[
+				"CTES",
+				"CMakeBuilder: Run CTest"
+			],
+			[
+				"clear",
+				"CMakeBuilder: Clear Cache"
+			],
+			[
+				"WriteBuild",
+				"CMakeBuilder: Write Build Targets to Sublime Project File"
+			],
+			[
+				"diag",
+				"CMakeBuilder: Diagnose (What Should I Do?)"
+			],
+			[
+				"Configure",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"Diagnose",
+				"CMakeBuilder: Diagnose (What Should I Do?)"
+			],
+			[
+				"CMakeBUilder",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"CMake",
+				"CMakeBuilder: New Project"
+			],
+			[
+				"tex",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"Json",
+				"Set Syntax: JSON"
+			],
+			[
+				"Ctest",
+				"CMakeBuilder: Run CTest"
+			],
+			[
+				"Claer",
+				"CMakeBuilder: Clear Cache"
+			],
+			[
+				"cmake",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"color sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"uninstall",
+				"Colorsublime: Uninstall Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"clean",
+				"OmniSharpSublime: Clean"
+			],
+			[
+				"clea",
+				"CMakeBuilder: Clear Cache"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Cong",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"configure",
+				"CMakeBuilder: Configure"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"text pastry",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 215.0,
+		"history":
+		[
+			"call([\"./build/bin/project1\"])",
+			"from subprocess import call",
+			"call([\"./build/bin/project1\"])",
+			"./build/bin/project1",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Programming/School/CS121/CS121_Homework6"
+	],
+	"file_history":
+	[
+		"/D/Programming/School/CS121/CS121_Homework6/main4.cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment3/src/main3.cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment3/daily_data.txt",
+		"/C/Users/Clark/Downloads/main3.cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment2/src/main2.cpp",
+		"/C/Users/Clark/Downloads/Source.cpp",
+		"/C/Users/Clark/Downloads/HW6.cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/Homework6.sublime-project",
+		"/C/Users/Clark/Downloads/HW6 (1).cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment3/CMakeLists.txt",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment1/src/main1.cpp",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment1/CMakeLists.txt",
+		"/D/Programming/School/CS121/CS121_Homework6/CMakeLists.txt",
+		"/D/Programming/School/CS121/CS121_Homework6/assignment1/input.txt",
+		"/D/School/CS121/Homework6/assignment3/daily_data.txt",
+		"/D/School/CS121/Homework6/CMakeLists.txt",
+		"/D/School/CS121/Homework6/build/bin/Debug/4_letter_words_that_start_with_c.txt",
+		"/D/School/CS121/Homework6/build/bin/Debug/4_letter_words_that_start_with_b.txt",
+		"/D/School/CS121/Homework6/build/bin/Debug/4_letter_words_that_start_with_a.txt",
+		"/D/School/CS121/Homework6/assignment1/src/main1.cpp",
+		"/D/School/CS121/Homework6/build/bin/Debug/dictionary_of_four_letter_words.txt",
+		"/D/School/CS121/Homework6/assignment1/input.txt",
+		"/D/School/CS121/Homework6/assignment1/dictionary_of_four_letter_words.txt",
+		"/D/School/CS121/Homework6/Homework6.sublime-project",
+		"/D/School/CS121/Homework6/assignment3/CMakeLists.txt",
+		"/D/School/CS121/Homework6/assignment2/CMakeLists.txt",
+		"/D/School/CS121/Homework6/assignment1/CMakeLists.txt",
+		"/D/School/CS121/Homework6/assignment2/src/main2.cpp",
+		"/D/School/CS121/Homework6/assignment3/src/main3.cpp",
+		"/D/School/CS121/Homework6/BabyBlockBot/CMakeLists.txt",
+		"/D/School/CS121/Homework6/assignment2/src",
+		"/D/School/CS121/Homework6/assignment1/src",
+		"/D/School/CS121/CS121_BabyBlock/baby_block_bot.sublime-project",
+		"/D/School/CS121/Homework6/homework6.sublime-project",
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/src/main.cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/src/functionlib.hpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/CMakeLists.txt",
+		"/C/Users/Clark/Downloads/BBRob (1).cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/test_case_1.txt",
+		"/D/Programming/School/CS121/CS121_BabyBlock/.gitignore",
+		"/D/Programming/School/CS121/CS121_BabyBlock/release/main.cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block_bot.sublime-project",
+		"/D/Programming/School/CS121/CS121_BabyBlock/test_case_2.txt",
+		"/D/Programming/School/CS121/CS121_BabyBlock/BabyBlockBot/src/function_lib.cpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/release/functionlib.hpp",
+		"/D/Programming/School/CS121/CS121_BabyBlock/CMakeLists.txt",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block/baby_block.sublime-project",
+		"/D/Programming/School/CS121/CS121_BabyBlock/baby_block/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/baby_block_bot.sublime-project",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/src/main.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/src/functionlib.hpp",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/BabyBlockBot/src/function_lib.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/test_case_2.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/test_case_3.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/BabyBlockBot/test_case_4.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program3/src/main3.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program4/src/main4.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/al_weather_station.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/build/bin/North_AL_Station_Data.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program4/src/main4.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program4/src/implementation.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program4/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program4/src/includes.hpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/build/bin/bonanza_2.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program1/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/build/bin/weather_station_bonanza.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/homework3p2group.sublime-project",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program1/src/main1.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program2/src/main2.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program2/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2_group/Program3/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program1/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/build/bin/al_weather_station.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program2/src/main2.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program1/src/main1.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/build/bin/north_al_weather_station.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program3/src/main3.cpp",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/build/bin/weather_station_min_max.txt",
+		"/Users/Clark/Documents/Programming/School/CS413/lab1/main.s",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/build/bin/filtered_al_weather_station.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/.gitignore",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/al_weather_station.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/Program4/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/School/CS121/Homework3p2/homework3p2.sublime-project",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/funcreturner.hpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/CMakeLists.txt",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/main.cpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/build/Makefile",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/config.h.in",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/feature_test_cpp17.sublime-project",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/inc/includes.hpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/build/CMakeFiles/Makefile2",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/build/mathLibrary/Table.h",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/mathLibrary/mymath.cpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/mathLibrary/CMakeLists.txt",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/License.txt",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/mathLibrary/mymath.hpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/mathLibrary/MakeTable.cpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/inc/version.h.in",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/mathLibrary/CMakeLists.txt",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/mathLibrary/mymath.cpp",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/build/inc/version.h",
+		"/Users/Clark/Documents/TestProjects/feature_test_cpp17/src/CMakeLists.txt",
+		"/Users/Clark/Documents/TestScheduler/TestScheduler.sublime-project",
+		"/Users/Clark/Documents/Programming/TestProjects/ConceptTest/CMakeCache.txt",
+		"/Users/Clark/Documents/Programming/TestProjects/ConceptTest/proj_name.sublime-project",
+		"/Users/Clark/Documents/Programming/TestProjects/ConceptTest/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/Projects/clarksouls/CMakeLists.txt",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/Player/PlayerController_AirStates.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/ChargeHook.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Attack Library/AttackStructures.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/EnemyMovement.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/PlayerMovement.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Core/Controller2D.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/PlayerController.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/Editor/AttackLibraryWindow.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Attack Library/AttackController.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Core/ScreenShake.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/Game/GameController.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/StateMachines/FiniteStateMachine.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/scripts/StateMachines/State.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/Fucntioncall.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/Editor/PlayerMovement_Editor.cs",
+		"/Users/Clark/Documents/Programming/Projects/main_game/Assets/Editor/Controller2D_Editor.cs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hour",
+			"f",
+			"Fraction",
+			"stationData",
+			"holder",
+			"hold",
+			"stationRecord",
+			"temp",
+			"<<",
+			" <<",
+			">>",
+			">> ",
+			"ss",
+			"ss >>",
+			"stream",
+			"data",
+			"infile",
+			" )",
+			"ofstream",
+			"cout",
+			"ofstream",
+			" <<",
+			"filename",
+			"substr",
+			"sub = str.substr(i, i + 4);\n\t\t\tcout << sub << \" \";\n\t\t\treverse(sub.begin(), sub.end());\n\t\t\tcout << sub << \" \";",
+			"cout << sub;",
+			"cout << sub",
+			"row_lines",
+			"sub",
+			"row_lines",
+			"STRING_LENGTH",
+			"column_words",
+			"lines_to_check",
+			"STRING_LENGTH",
+			"cout",
+			"word_dict",
+			"input",
+			"dictionary_of_four_letter_words",
+			"baby_block_bot",
+			"PGRM2_SOURCES",
+			"PGRM",
+			"PGRM1_SOURCES"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assignment1/src/main1.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "main4.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1895,
+								1895
+							]
+						],
+						"settings":
+						{
+							"auto_name": "njkdlwnajlkdwa",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 812.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 347.0
+	},
+	"output.files_to_be_deleted":
+	{
+		"height": 239.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Homework6 (Windows)",
+	"project": "Homework6.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main4",
+				"main4.cpp"
+			],
+			[
+				"main3",
+				"assignment3\\src\\main3.cpp"
+			],
+			[
+				"main2",
+				"assignment2\\src\\main2.cpp"
+			],
+			[
+				"daily",
+				"assignment3\\daily_data.txt"
+			],
+			[
+				"main1",
+				"assignment1\\src\\main1.cpp"
+			],
+			[
+				"main",
+				"assignment3\\src\\main3.cpp"
+			],
+			[
+				"dail",
+				"assignment3\\daily_data.txt"
+			],
+			[
+				"cmake",
+				"CMakeLists.txt"
+			],
+			[
+				"input",
+				"assignment1\\input.txt"
+			],
+			[
+				"proj",
+				"Homework6.sublime-project"
+			],
+			[
+				"pro",
+				"Homework6.sublime-project"
+			],
+			[
+				"sub",
+				"Homework6.sublime-project"
+			],
+			[
+				"h",
+				"release\\functionlib.hpp"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"test",
+				"test_case_2.txt"
+			],
+			[
+				"function",
+				"BabyBlockBot\\src\\function_lib.cpp"
+			],
+			[
+				"project",
+				"baby_block_bot.sublime-project"
+			],
+			[
+				"cma",
+				"CMakeLists.txt"
+			],
+			[
+				"projec",
+				"baby_block_bot.sublime-project"
+			],
+			[
+				"funciton",
+				"BabyBlockBot/src/function_lib.cpp"
+			],
+			[
+				"func",
+				"BabyBlockBot/src/function_lib.cpp"
+			],
+			[
+				"funcion",
+				"BabyBlockBot/src/functionlib.hpp"
+			],
+			[
+				"lib",
+				"BabyBlockBot/src/function_lib.cpp"
+			],
+			[
+				"include",
+				"Program4/src/includes.hpp"
+			],
+			[
+				"",
+				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/weather_station_bonanza.txt"
+			],
+			[
+				"c",
+				"CMakeLists.txt"
+			],
+			[
+				"al",
+				"al_weather_station.txt"
+			],
+			[
+				"bonanza_2.txt",
+				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/bonanza_2.txt"
+			],
+			[
+				"weather_station_bonanza.txt",
+				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/weather_station_bonanza.txt"
+			],
+			[
+				"bon",
+				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/bonanza_2.txt"
+			],
+			[
+				"min2",
+				"Program2/src/main2.cpp"
+			],
+			[
+				"min1",
+				"Program1/src/main1.cpp"
+			],
+			[
+				"amin",
+				"Program2/src/main2.cpp"
+			],
+			[
+				"min",
+				"Program2/src/main2.cpp"
+			],
+			[
+				"wea",
+				"~/Documents/Programming/School/CS121/Homework3p2_group/build/bin/weather_station_bonanza.txt"
+			],
+			[
+				"homework",
+				"homework3p2group.sublime-project"
+			],
+			[
+				"sublime",
+				"homework3p2group.sublime-project"
+			],
+			[
+				"homew",
+				"homework3p2group.sublime-project"
+			],
+			[
+				"make",
+				"CMakeLists.txt"
+			],
+			[
+				"weather",
+				"al_weather_station.txt"
+			],
+			[
+				"cmaek",
+				"CMakeLists.txt"
+			],
+			[
+				"a",
+				"al_weather_station.txt"
+			],
+			[
+				"cmke",
+				"CMakeLists.txt"
+			],
+			[
+				"mymath.",
+				"mathLibrary/mymath.cpp"
+			],
+			[
+				"cmakelists",
+				"src/mathLibrary/CMakeLists.txt"
+			],
+			[
+				"mymath",
+				"src/mathLibrary/mymath.cpp"
+			],
+			[
+				"version",
+				"inc/version.h.in"
+			],
+			[
+				"cmakelist",
+				"CMakeLists.txt"
+			],
+			[
+				"playercon",
+				"Assets/scripts/Game/Player/PlayerController.cs"
+			],
+			[
+				"airstate",
+				"Assets/scripts/Game/Player/PlayerController_AirStates.cs"
+			],
+			[
+				"airs",
+				"Assets/scripts/Game/Player/PlayerController_AirStates.cs"
+			],
+			[
+				"struct",
+				"Assets/scripts/Attack Library/AttackStructures.cs"
+			],
+			[
+				"playercont",
+				"Assets/scripts/Game/Player/PlayerController.cs"
+			],
+			[
+				"playercontroller",
+				"Assets/scripts/Game/Player/PlayerController_AttackStates.cs"
+			],
+			[
+				"attacks",
+				"Assets/scripts/Attack Library/AttackStructures.cs"
+			],
+			[
+				"atacklib",
+				"Assets/Editor/AttackLibraryWindow.cs"
+			],
+			[
+				"attackstr",
+				"Assets/scripts/Attack Library/AttackStructures.cs"
+			],
+			[
+				"attacklib",
+				"Assets/scripts/Attack Library/AttackStructures.cs"
+			],
+			[
+				"attackwindow",
+				"Assets/Editor/AttackLibraryWindow.cs"
+			],
+			[
+				"playermove",
+				"Assets/scripts/Game/PlayerMovement.cs"
+			],
+			[
+				"player",
+				"Assets/scripts/Game/PlayerController.cs"
+			],
+			[
+				"controll",
+				"Assets/scripts/Core/Controller2D.cs"
+			],
+			[
+				"contro",
+				"Assets/scripts/Core/Controller2D.cs"
+			],
+			[
+				"attacklibrar",
+				"Assets/scripts/Attack Library/AttackStructures.cs"
+			],
+			[
+				"state",
+				"Assets/scripts/StateMachines/State.cs"
+			],
+			[
+				"gacm",
+				"Assets/scripts/Game/GameController.cs"
+			],
+			[
+				"screen",
+				"Assets/scripts/Core/ScreenShake.cs"
+			],
+			[
+				"gamecon",
+				"Assets/scripts/Game/GameController.cs"
+			],
+			[
+				"playermovement",
+				"Assets/scripts/Game/PlayerMovement.cs"
+			],
+			[
+				"controller",
+				"Assets/scripts/Core/Controller2D.cs"
+			],
+			[
+				"editor",
+				"Assets/Editor/PlayerMovement_Editor.cs"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"level",
+				"Assets/Editor/LevelInfoWindow.cs"
+			],
+			[
+				"levelinf",
+				"Assets/scripts/Game/LevelInfo.cs"
+			],
+			[
+				"f",
+				"Assets/scripts/StateMachines/FiniteStateMachine.cs"
+			],
+			[
+				"play",
+				"Assets/scripts/Game/PlayerController.cs"
+			],
+			[
+				"ai",
+				"Assets/scripts/Game/AIController.cs"
+			],
+			[
+				"attackcont",
+				"Assets/scripts/Attack Library/AttackController.cs"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"window",
+				"Assets/Editor/AttackLibraryWindow.cs"
+			],
+			[
+				"levelinfo",
+				"Assets/scripts/Game/LevelInfo.cs"
+			],
+			[
+				"gamec",
+				"Assets/scripts/Game/GameController.cs"
+			],
+			[
+				"control",
+				"Assets/scripts/Controller2D.cs"
+			],
+			[
+				"ser",
+				"Assets/scripts/Core/SerDictionary.cs"
+			],
+			[
+				"attacklibrary",
+				"Assets/scripts/Attack Library/AttackLibrary.cs"
+			],
+			[
+				"attack",
+				"Assets/scripts/Attack Library/AttackController.cs"
+			],
+			[
+				"testwind",
+				"Assets/Editor/TestWindow_Editor.cs"
+			],
+			[
+				"seriali",
+				"Assets/scripts/SerializeObjects/SerDictionary.cs"
+			],
+			[
+				"hitbox",
+				"Assets/Prefabs/Hitbox.prefab"
+			],
+			[
+				"bai",
+				"BasicEnemyController.cs"
+			],
+			[
+				"contorll",
+				"Controller2D.cs"
+			],
+			[
+				"finite",
+				"StateMachines/FiniteStateMachine.cs"
+			],
+			[
+				"playera",
+				"PlayerAttack.cs"
+			],
+			[
+				"game",
+				"Core/GameInput.cs"
+			],
+			[
+				"fini",
+				"StateMachines/FiniteStateMachine.cs"
+			],
+			[
+				"push",
+				"StateMachines/PushdownStateMachine.cs"
+			],
+			[
+				"cont",
+				"Controller2D.cs"
+			],
+			[
+				"gae",
+				"GameConstants.cs"
+			],
+			[
+				"con",
+				"GameConstants"
+			],
+			[
+				"pla",
+				"PlayerAttack.cs"
+			],
+			[
+				"tra",
+				"StateMachines/Transition.cs"
+			],
+			[
+				"p",
+				"PlayerController.cs"
+			],
+			[
+				"fin",
+				"StateMachines/FiniteStateMachine.cs"
+			],
+			[
+				"trans",
+				"StateMachines/Transition.cs"
+			],
+			[
+				"trigger",
+				"StateMachines/ITrigger.cs"
+			],
+			[
+				"tran",
+				"StateMachines/Transition.cs"
+			],
+			[
+				"health",
+				"HealthComponent.cs"
+			],
+			[
+				"i",
+				"StateMachines/IState.cs"
+			],
+			[
+				"is",
+				"StateMachines/IState.cs"
+			],
+			[
+				"s",
+				"StateMachines/State.cs"
+			],
+			[
+				"itra",
+				"StateMachines/Transition.cs"
+			],
+			[
+				"ist",
+				"StateMachines/IState.cs"
+			],
+			[
+				"conto",
+				"Controller2D.cs"
+			],
+			[
+				"dbg",
+				"core/include/dbg.hpp"
+			],
+			[
+				"dummy",
+				"core/include/dummy.hpp"
+			],
+			[
+				"d",
+				"core/include/dbg.hpp"
+			],
+			[
+				"inc",
+				"core/include/includes.hpp"
+			],
+			[
+				"cmk",
+				"CMakeLists.txt"
+			],
+			[
+				"pen",
+				"~/Dropbox/School/Spring2017/CS347/cs347-project3/Assets/PenguinController.cs"
+			],
+			[
+				"wor",
+				"Exercise-9.21/src/WordCounter.java"
+			],
+			[
+				"word",
+				"Exercise-9.21/src/WordCounter.java"
+			],
+			[
+				"de",
+				"Exercise-9.10/src/Depositor.java"
+			],
+			[
+				"with",
+				"Exercise-9.10/src/Withdrawer.java"
+			],
+			[
+				"syn",
+				"Exercise-9.10/src/SynchronizedBankAccount.java"
+			],
+			[
+				"queue",
+				"Exercise-8.6/src/QueueInterface.java"
+			],
+			[
+				"bounded",
+				"Exercise-8.6/src/BoundedQueue.java"
+			],
+			[
+				"queuea",
+				"Exercise-8.6/src/QueueAdapter.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
